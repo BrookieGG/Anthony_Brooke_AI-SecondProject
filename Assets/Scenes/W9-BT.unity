@@ -221,6 +221,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 49306045}
+  - component: {fileID: 49306049}
   - component: {fileID: 49306048}
   - component: {fileID: 49306047}
   - component: {fileID: 49306046}
@@ -321,6 +322,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 49306044}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &49306049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49306044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &51373828
 GameObject:
   m_ObjectHideFlags: 0
@@ -330,6 +348,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 51373829}
+  - component: {fileID: 51373833}
   - component: {fileID: 51373832}
   - component: {fileID: 51373831}
   - component: {fileID: 51373830}
@@ -430,6 +449,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 51373828}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &51373833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 51373828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &52328924
 GameObject:
   m_ObjectHideFlags: 0
@@ -470,6 +506,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 56994116}
+  - component: {fileID: 56994120}
   - component: {fileID: 56994119}
   - component: {fileID: 56994118}
   - component: {fileID: 56994117}
@@ -570,6 +607,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 56994115}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &56994120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 56994115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &61682267
 GameObject:
   m_ObjectHideFlags: 0
@@ -610,6 +664,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 70711960}
+  - component: {fileID: 70711964}
   - component: {fileID: 70711963}
   - component: {fileID: 70711962}
   - component: {fileID: 70711961}
@@ -710,6 +765,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 70711959}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &70711964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 70711959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &74444826
 GameObject:
   m_ObjectHideFlags: 0
@@ -719,6 +791,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 74444827}
+  - component: {fileID: 74444831}
   - component: {fileID: 74444830}
   - component: {fileID: 74444829}
   - component: {fileID: 74444828}
@@ -819,6 +892,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 74444826}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &74444831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 74444826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &77096069
 GameObject:
   m_ObjectHideFlags: 0
@@ -869,6 +959,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 133552074}
+  - component: {fileID: 133552078}
   - component: {fileID: 133552077}
   - component: {fileID: 133552076}
   - component: {fileID: 133552075}
@@ -969,6 +1060,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 133552073}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &133552078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 133552073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &160639913
 GameObject:
   m_ObjectHideFlags: 0
@@ -1019,6 +1127,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 162835207}
+  - component: {fileID: 162835211}
   - component: {fileID: 162835210}
   - component: {fileID: 162835209}
   - component: {fileID: 162835208}
@@ -1119,6 +1228,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 162835206}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &162835211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162835206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &168014795
 GameObject:
   m_ObjectHideFlags: 0
@@ -1128,6 +1254,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 168014796}
+  - component: {fileID: 168014800}
   - component: {fileID: 168014799}
   - component: {fileID: 168014798}
   - component: {fileID: 168014797}
@@ -1228,6 +1355,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 168014795}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &168014800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 168014795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &171774983
 GameObject:
   m_ObjectHideFlags: 0
@@ -1237,6 +1381,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 171774984}
+  - component: {fileID: 171774988}
   - component: {fileID: 171774987}
   - component: {fileID: 171774986}
   - component: {fileID: 171774985}
@@ -1337,6 +1482,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 171774983}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &171774988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 171774983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &182763460
 GameObject:
   m_ObjectHideFlags: 0
@@ -1346,6 +1508,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 182763461}
+  - component: {fileID: 182763465}
   - component: {fileID: 182763464}
   - component: {fileID: 182763463}
   - component: {fileID: 182763462}
@@ -1446,6 +1609,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 182763460}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &182763465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182763460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &184108567
 GameObject:
   m_ObjectHideFlags: 0
@@ -1455,6 +1635,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 184108568}
+  - component: {fileID: 184108572}
   - component: {fileID: 184108571}
   - component: {fileID: 184108570}
   - component: {fileID: 184108569}
@@ -1555,6 +1736,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 184108567}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &184108572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 184108567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &226492448
 GameObject:
   m_ObjectHideFlags: 0
@@ -1564,6 +1762,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 226492449}
+  - component: {fileID: 226492453}
   - component: {fileID: 226492452}
   - component: {fileID: 226492451}
   - component: {fileID: 226492450}
@@ -1664,6 +1863,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 226492448}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &226492453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 226492448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &228477498
 GameObject:
   m_ObjectHideFlags: 0
@@ -1673,6 +1889,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 228477499}
+  - component: {fileID: 228477503}
   - component: {fileID: 228477502}
   - component: {fileID: 228477501}
   - component: {fileID: 228477500}
@@ -1773,6 +1990,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 228477498}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &228477503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 228477498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &235381572
 GameObject:
   m_ObjectHideFlags: 0
@@ -1782,6 +2016,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 235381573}
+  - component: {fileID: 235381577}
   - component: {fileID: 235381576}
   - component: {fileID: 235381575}
   - component: {fileID: 235381574}
@@ -1882,6 +2117,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 235381572}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &235381577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 235381572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &235958263
 GameObject:
   m_ObjectHideFlags: 0
@@ -1891,6 +2143,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 235958264}
+  - component: {fileID: 235958268}
   - component: {fileID: 235958267}
   - component: {fileID: 235958266}
   - component: {fileID: 235958265}
@@ -1991,6 +2244,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 235958263}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &235958268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 235958263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &246746132
 GameObject:
   m_ObjectHideFlags: 0
@@ -2000,6 +2270,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 246746133}
+  - component: {fileID: 246746137}
   - component: {fileID: 246746136}
   - component: {fileID: 246746135}
   - component: {fileID: 246746134}
@@ -2100,6 +2371,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 246746132}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &246746137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246746132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &276150158
 GameObject:
   m_ObjectHideFlags: 0
@@ -2109,6 +2397,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 276150159}
+  - component: {fileID: 276150163}
   - component: {fileID: 276150162}
   - component: {fileID: 276150161}
   - component: {fileID: 276150160}
@@ -2209,6 +2498,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 276150158}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &276150163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276150158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &339990568
 GameObject:
   m_ObjectHideFlags: 0
@@ -2218,6 +2524,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 339990569}
+  - component: {fileID: 339990573}
   - component: {fileID: 339990572}
   - component: {fileID: 339990571}
   - component: {fileID: 339990570}
@@ -2318,6 +2625,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 339990568}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &339990573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 339990568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &345069588
 GameObject:
   m_ObjectHideFlags: 0
@@ -2327,6 +2651,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 345069589}
+  - component: {fileID: 345069593}
   - component: {fileID: 345069592}
   - component: {fileID: 345069591}
   - component: {fileID: 345069590}
@@ -2427,6 +2752,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 345069588}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &345069593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345069588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &364480535
 GameObject:
   m_ObjectHideFlags: 0
@@ -2647,6 +2989,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 415660168}
+  - component: {fileID: 415660172}
   - component: {fileID: 415660171}
   - component: {fileID: 415660170}
   - component: {fileID: 415660169}
@@ -2747,6 +3090,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 415660167}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &415660172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 415660167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &426252470
 GameObject:
   m_ObjectHideFlags: 0
@@ -2859,6 +3219,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 479066333}
+  - component: {fileID: 479066337}
   - component: {fileID: 479066336}
   - component: {fileID: 479066335}
   - component: {fileID: 479066334}
@@ -2959,6 +3320,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 479066332}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &479066337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479066332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &479745772
 GameObject:
   m_ObjectHideFlags: 0
@@ -2968,6 +3346,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 479745773}
+  - component: {fileID: 479745777}
   - component: {fileID: 479745776}
   - component: {fileID: 479745775}
   - component: {fileID: 479745774}
@@ -3068,6 +3447,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 479745772}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &479745777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479745772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &480704837
 GameObject:
   m_ObjectHideFlags: 0
@@ -3108,6 +3504,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 512901781}
+  - component: {fileID: 512901785}
   - component: {fileID: 512901784}
   - component: {fileID: 512901783}
   - component: {fileID: 512901782}
@@ -3208,6 +3605,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 512901780}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &512901785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 512901780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &554977122
 GameObject:
   m_ObjectHideFlags: 0
@@ -3217,6 +3631,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 554977123}
+  - component: {fileID: 554977127}
   - component: {fileID: 554977126}
   - component: {fileID: 554977125}
   - component: {fileID: 554977124}
@@ -3317,6 +3732,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 554977122}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &554977127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554977122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &554977159
 GameObject:
   m_ObjectHideFlags: 0
@@ -3326,6 +3758,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 554977160}
+  - component: {fileID: 554977164}
   - component: {fileID: 554977163}
   - component: {fileID: 554977162}
   - component: {fileID: 554977161}
@@ -3426,6 +3859,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 554977159}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &554977164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554977159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &571130906
 GameObject:
   m_ObjectHideFlags: 0
@@ -3435,6 +3885,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 571130907}
+  - component: {fileID: 571130911}
   - component: {fileID: 571130910}
   - component: {fileID: 571130909}
   - component: {fileID: 571130908}
@@ -3535,6 +3986,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 571130906}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &571130911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571130906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &591012473
 GameObject:
   m_ObjectHideFlags: 0
@@ -3544,6 +4012,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 591012474}
+  - component: {fileID: 591012478}
   - component: {fileID: 591012477}
   - component: {fileID: 591012476}
   - component: {fileID: 591012475}
@@ -3644,6 +4113,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 591012473}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &591012478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 591012473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &615306170
 GameObject:
   m_ObjectHideFlags: 0
@@ -3730,13 +4216,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 615306170}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.2588186, y: -0, z: -0, w: 0.965926}
+  m_LocalPosition: {x: 0, y: 3.232056, z: -4.6698723}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 30, y: 0, z: 0}
 --- !u!114 &615306174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3790,6 +4276,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 632248909}
+  - component: {fileID: 632248913}
   - component: {fileID: 632248912}
   - component: {fileID: 632248911}
   - component: {fileID: 632248910}
@@ -3890,6 +4377,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 632248908}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &632248913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632248908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &648125940
 GameObject:
   m_ObjectHideFlags: 0
@@ -3899,6 +4403,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 648125941}
+  - component: {fileID: 648125945}
   - component: {fileID: 648125944}
   - component: {fileID: 648125943}
   - component: {fileID: 648125942}
@@ -3999,6 +4504,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 648125940}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &648125945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 648125940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &672399387
 GameObject:
   m_ObjectHideFlags: 0
@@ -4008,6 +4530,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 672399388}
+  - component: {fileID: 672399392}
   - component: {fileID: 672399391}
   - component: {fileID: 672399390}
   - component: {fileID: 672399389}
@@ -4108,6 +4631,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 672399387}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &672399392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672399387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &692252104
 GameObject:
   m_ObjectHideFlags: 0
@@ -4117,6 +4657,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 692252105}
+  - component: {fileID: 692252109}
   - component: {fileID: 692252108}
   - component: {fileID: 692252107}
   - component: {fileID: 692252106}
@@ -4217,6 +4758,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 692252104}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &692252109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 692252104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &699228319
 GameObject:
   m_ObjectHideFlags: 0
@@ -4257,6 +4815,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 702132324}
+  - component: {fileID: 702132328}
   - component: {fileID: 702132327}
   - component: {fileID: 702132326}
   - component: {fileID: 702132325}
@@ -4357,6 +4916,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 702132323}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &702132328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 702132323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &707636285
 GameObject:
   m_ObjectHideFlags: 0
@@ -4397,6 +4973,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 719227437}
+  - component: {fileID: 719227441}
   - component: {fileID: 719227440}
   - component: {fileID: 719227439}
   - component: {fileID: 719227438}
@@ -4497,6 +5074,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 719227436}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &719227441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 719227436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &727347242
 GameObject:
   m_ObjectHideFlags: 0
@@ -4506,6 +5100,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 727347243}
+  - component: {fileID: 727347247}
   - component: {fileID: 727347246}
   - component: {fileID: 727347245}
   - component: {fileID: 727347244}
@@ -4606,6 +5201,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 727347242}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &727347247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 727347242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &739445897
 GameObject:
   m_ObjectHideFlags: 0
@@ -4615,6 +5227,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 739445898}
+  - component: {fileID: 739445902}
   - component: {fileID: 739445901}
   - component: {fileID: 739445900}
   - component: {fileID: 739445899}
@@ -4715,6 +5328,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 739445897}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &739445902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 739445897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &765918247
 GameObject:
   m_ObjectHideFlags: 0
@@ -4904,6 +5534,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 829469069}
+  - component: {fileID: 829469073}
   - component: {fileID: 829469072}
   - component: {fileID: 829469071}
   - component: {fileID: 829469070}
@@ -5004,6 +5635,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 829469068}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &829469073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829469068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &829746489
 GameObject:
   m_ObjectHideFlags: 0
@@ -5095,6 +5743,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 846704431}
+  - component: {fileID: 846704435}
   - component: {fileID: 846704434}
   - component: {fileID: 846704433}
   - component: {fileID: 846704432}
@@ -5195,6 +5844,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 846704430}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &846704435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 846704430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &857659748
 GameObject:
   m_ObjectHideFlags: 0
@@ -5204,6 +5870,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 857659749}
+  - component: {fileID: 857659753}
   - component: {fileID: 857659752}
   - component: {fileID: 857659751}
   - component: {fileID: 857659750}
@@ -5304,6 +5971,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 857659748}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &857659753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857659748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &860305700
 GameObject:
   m_ObjectHideFlags: 0
@@ -5313,6 +5997,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 860305701}
+  - component: {fileID: 860305705}
   - component: {fileID: 860305704}
   - component: {fileID: 860305703}
   - component: {fileID: 860305702}
@@ -5413,6 +6098,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 860305700}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &860305705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 860305700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &887039878
 GameObject:
   m_ObjectHideFlags: 0
@@ -5422,6 +6124,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 887039879}
+  - component: {fileID: 887039883}
   - component: {fileID: 887039882}
   - component: {fileID: 887039881}
   - component: {fileID: 887039880}
@@ -5522,6 +6225,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 887039878}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &887039883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887039878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &887707416
 GameObject:
   m_ObjectHideFlags: 0
@@ -5531,6 +6251,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 887707417}
+  - component: {fileID: 887707421}
   - component: {fileID: 887707420}
   - component: {fileID: 887707419}
   - component: {fileID: 887707418}
@@ -5631,6 +6352,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 887707416}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &887707421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887707416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &890670187
 GameObject:
   m_ObjectHideFlags: 0
@@ -5671,6 +6409,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 912419614}
+  - component: {fileID: 912419618}
   - component: {fileID: 912419617}
   - component: {fileID: 912419616}
   - component: {fileID: 912419615}
@@ -5771,6 +6510,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 912419613}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &912419618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912419613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &916333957
 GameObject:
   m_ObjectHideFlags: 0
@@ -5821,6 +6577,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 930495481}
+  - component: {fileID: 930495485}
   - component: {fileID: 930495484}
   - component: {fileID: 930495483}
   - component: {fileID: 930495482}
@@ -5921,6 +6678,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 930495480}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &930495485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930495480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &955096301
 GameObject:
   m_ObjectHideFlags: 0
@@ -5930,6 +6704,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 955096302}
+  - component: {fileID: 955096306}
   - component: {fileID: 955096305}
   - component: {fileID: 955096304}
   - component: {fileID: 955096303}
@@ -6030,6 +6805,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 955096301}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &955096306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955096301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &979877001
 GameObject:
   m_ObjectHideFlags: 0
@@ -6147,6 +6939,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 985506362}
+  - component: {fileID: 985506366}
   - component: {fileID: 985506365}
   - component: {fileID: 985506364}
   - component: {fileID: 985506363}
@@ -6247,6 +7040,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 985506361}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &985506366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 985506361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &989906013
 GameObject:
   m_ObjectHideFlags: 0
@@ -6256,6 +7066,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 989906014}
+  - component: {fileID: 989906018}
   - component: {fileID: 989906017}
   - component: {fileID: 989906016}
   - component: {fileID: 989906015}
@@ -6356,6 +7167,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 989906013}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &989906018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 989906013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1009751209
 GameObject:
   m_ObjectHideFlags: 0
@@ -6365,6 +7193,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1009751210}
+  - component: {fileID: 1009751214}
   - component: {fileID: 1009751213}
   - component: {fileID: 1009751212}
   - component: {fileID: 1009751211}
@@ -6465,6 +7294,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1009751209}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1009751214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1009751209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1031113787
 GameObject:
   m_ObjectHideFlags: 0
@@ -6474,6 +7320,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1031113788}
+  - component: {fileID: 1031113792}
   - component: {fileID: 1031113791}
   - component: {fileID: 1031113790}
   - component: {fileID: 1031113789}
@@ -6574,6 +7421,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1031113787}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1031113792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1031113787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1056975002
 GameObject:
   m_ObjectHideFlags: 0
@@ -6583,6 +7447,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1056975003}
+  - component: {fileID: 1056975007}
   - component: {fileID: 1056975006}
   - component: {fileID: 1056975005}
   - component: {fileID: 1056975004}
@@ -6683,6 +7548,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1056975002}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1056975007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056975002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1058270683
 GameObject:
   m_ObjectHideFlags: 0
@@ -6692,6 +7574,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1058270684}
+  - component: {fileID: 1058270688}
   - component: {fileID: 1058270687}
   - component: {fileID: 1058270686}
   - component: {fileID: 1058270685}
@@ -6792,6 +7675,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1058270683}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1058270688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058270683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1063019822
 GameObject:
   m_ObjectHideFlags: 0
@@ -6801,6 +7701,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1063019826}
+  - component: {fileID: 1063019827}
   - component: {fileID: 1063019825}
   - component: {fileID: 1063019824}
   - component: {fileID: 1063019823}
@@ -6901,6 +7802,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 780182574}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1063019827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063019822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1082257211
 GameObject:
   m_ObjectHideFlags: 0
@@ -7018,6 +7936,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1098083871}
+  - component: {fileID: 1098083875}
   - component: {fileID: 1098083874}
   - component: {fileID: 1098083873}
   - component: {fileID: 1098083872}
@@ -7118,6 +8037,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1098083870}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1098083875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1098083870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1106129466
 GameObject:
   m_ObjectHideFlags: 0
@@ -7127,6 +8063,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1106129467}
+  - component: {fileID: 1106129471}
   - component: {fileID: 1106129470}
   - component: {fileID: 1106129469}
   - component: {fileID: 1106129468}
@@ -7227,6 +8164,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1106129466}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1106129471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106129466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1118139746
 GameObject:
   m_ObjectHideFlags: 0
@@ -7236,6 +8190,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1118139747}
+  - component: {fileID: 1118139751}
   - component: {fileID: 1118139750}
   - component: {fileID: 1118139749}
   - component: {fileID: 1118139748}
@@ -7336,6 +8291,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1118139746}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1118139751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1118139746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1164396832
 GameObject:
   m_ObjectHideFlags: 0
@@ -7345,6 +8317,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1164396833}
+  - component: {fileID: 1164396837}
   - component: {fileID: 1164396836}
   - component: {fileID: 1164396835}
   - component: {fileID: 1164396834}
@@ -7445,6 +8418,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1164396832}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1164396837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164396832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1188651608
 GameObject:
   m_ObjectHideFlags: 0
@@ -7575,6 +8565,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1196299562}
+  - component: {fileID: 1196299566}
   - component: {fileID: 1196299565}
   - component: {fileID: 1196299564}
   - component: {fileID: 1196299563}
@@ -7675,6 +8666,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1196299561}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1196299566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1196299561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1196834163
 GameObject:
   m_ObjectHideFlags: 0
@@ -7725,6 +8733,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1214671015}
+  - component: {fileID: 1214671019}
   - component: {fileID: 1214671018}
   - component: {fileID: 1214671017}
   - component: {fileID: 1214671016}
@@ -7825,6 +8834,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1214671014}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1214671019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214671014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1227873781
 GameObject:
   m_ObjectHideFlags: 0
@@ -7834,6 +8860,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1227873782}
+  - component: {fileID: 1227873786}
   - component: {fileID: 1227873785}
   - component: {fileID: 1227873784}
   - component: {fileID: 1227873783}
@@ -7934,6 +8961,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1227873781}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1227873786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227873781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1229224857
 GameObject:
   m_ObjectHideFlags: 0
@@ -7943,6 +8987,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1229224858}
+  - component: {fileID: 1229224862}
   - component: {fileID: 1229224861}
   - component: {fileID: 1229224860}
   - component: {fileID: 1229224859}
@@ -8043,6 +9088,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1229224857}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1229224862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229224857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1248584705
 GameObject:
   m_ObjectHideFlags: 0
@@ -8052,6 +9114,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1248584706}
+  - component: {fileID: 1248584710}
   - component: {fileID: 1248584709}
   - component: {fileID: 1248584708}
   - component: {fileID: 1248584707}
@@ -8152,6 +9215,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1248584705}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1248584710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1248584705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1270730197
 GameObject:
   m_ObjectHideFlags: 0
@@ -8161,6 +9241,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1270730198}
+  - component: {fileID: 1270730202}
   - component: {fileID: 1270730201}
   - component: {fileID: 1270730200}
   - component: {fileID: 1270730199}
@@ -8261,6 +9342,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1270730197}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1270730202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1270730197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1272428455
 GameObject:
   m_ObjectHideFlags: 0
@@ -8270,6 +9368,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1272428456}
+  - component: {fileID: 1272428460}
   - component: {fileID: 1272428459}
   - component: {fileID: 1272428458}
   - component: {fileID: 1272428457}
@@ -8370,6 +9469,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1272428455}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1272428460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272428455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1294249159
 GameObject:
   m_ObjectHideFlags: 0
@@ -8379,6 +9495,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1294249160}
+  - component: {fileID: 1294249164}
   - component: {fileID: 1294249163}
   - component: {fileID: 1294249162}
   - component: {fileID: 1294249161}
@@ -8479,6 +9596,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1294249159}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1294249164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1294249159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1310282205
 GameObject:
   m_ObjectHideFlags: 0
@@ -8488,6 +9622,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1310282206}
+  - component: {fileID: 1310282210}
   - component: {fileID: 1310282209}
   - component: {fileID: 1310282208}
   - component: {fileID: 1310282207}
@@ -8588,6 +9723,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1310282205}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1310282210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310282205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1330104332
 GameObject:
   m_ObjectHideFlags: 0
@@ -8597,6 +9749,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1330104333}
+  - component: {fileID: 1330104337}
   - component: {fileID: 1330104336}
   - component: {fileID: 1330104335}
   - component: {fileID: 1330104334}
@@ -8697,6 +9850,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1330104332}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1330104337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330104332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1363467205
 GameObject:
   m_ObjectHideFlags: 0
@@ -8706,6 +9876,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1363467206}
+  - component: {fileID: 1363467210}
   - component: {fileID: 1363467209}
   - component: {fileID: 1363467208}
   - component: {fileID: 1363467207}
@@ -8806,6 +9977,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1363467205}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1363467210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363467205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1375212114
 GameObject:
   m_ObjectHideFlags: 0
@@ -8864,6 +10052,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1388018287}
+  - component: {fileID: 1388018291}
   - component: {fileID: 1388018290}
   - component: {fileID: 1388018289}
   - component: {fileID: 1388018288}
@@ -8964,6 +10153,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1388018286}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1388018291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1388018286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1412479931
 GameObject:
   m_ObjectHideFlags: 0
@@ -8973,6 +10179,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1412479932}
+  - component: {fileID: 1412479936}
   - component: {fileID: 1412479935}
   - component: {fileID: 1412479934}
   - component: {fileID: 1412479933}
@@ -9073,6 +10280,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1412479931}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1412479936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412479931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1428289021
 GameObject:
   m_ObjectHideFlags: 0
@@ -9082,6 +10306,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1428289022}
+  - component: {fileID: 1428289026}
   - component: {fileID: 1428289025}
   - component: {fileID: 1428289024}
   - component: {fileID: 1428289023}
@@ -9182,6 +10407,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1428289021}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1428289026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428289021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1431535183
 GameObject:
   m_ObjectHideFlags: 0
@@ -9191,6 +10433,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1431535184}
+  - component: {fileID: 1431535188}
   - component: {fileID: 1431535187}
   - component: {fileID: 1431535186}
   - component: {fileID: 1431535185}
@@ -9291,6 +10534,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1431535183}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1431535188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431535183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1433326881
 GameObject:
   m_ObjectHideFlags: 0
@@ -9300,6 +10560,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1433326882}
+  - component: {fileID: 1433326886}
   - component: {fileID: 1433326885}
   - component: {fileID: 1433326884}
   - component: {fileID: 1433326883}
@@ -9400,6 +10661,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1433326881}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1433326886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433326881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1465489227
 GameObject:
   m_ObjectHideFlags: 0
@@ -9409,6 +10687,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1465489228}
+  - component: {fileID: 1465489232}
   - component: {fileID: 1465489231}
   - component: {fileID: 1465489230}
   - component: {fileID: 1465489229}
@@ -9509,6 +10788,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1465489227}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1465489232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1465489227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1473424295
 GameObject:
   m_ObjectHideFlags: 0
@@ -9549,6 +10845,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1498076122}
+  - component: {fileID: 1498076126}
   - component: {fileID: 1498076125}
   - component: {fileID: 1498076124}
   - component: {fileID: 1498076123}
@@ -9649,6 +10946,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1498076121}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1498076126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498076121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1508062197
 GameObject:
   m_ObjectHideFlags: 0
@@ -9658,6 +10972,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1508062198}
+  - component: {fileID: 1508062202}
   - component: {fileID: 1508062201}
   - component: {fileID: 1508062200}
   - component: {fileID: 1508062199}
@@ -9758,6 +11073,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1508062197}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1508062202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1508062197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1518267855
 GameObject:
   m_ObjectHideFlags: 0
@@ -9767,6 +11099,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1518267856}
+  - component: {fileID: 1518267860}
   - component: {fileID: 1518267859}
   - component: {fileID: 1518267858}
   - component: {fileID: 1518267857}
@@ -9867,6 +11200,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1518267855}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1518267860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1518267855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1526765686
 GameObject:
   m_ObjectHideFlags: 0
@@ -9876,6 +11226,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1526765687}
+  - component: {fileID: 1526765691}
   - component: {fileID: 1526765690}
   - component: {fileID: 1526765689}
   - component: {fileID: 1526765688}
@@ -9976,6 +11327,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1526765686}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1526765691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1526765686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1535286408
 GameObject:
   m_ObjectHideFlags: 0
@@ -10202,6 +11570,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1557269252}
+  - component: {fileID: 1557269256}
   - component: {fileID: 1557269255}
   - component: {fileID: 1557269254}
   - component: {fileID: 1557269253}
@@ -10302,6 +11671,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1557269251}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1557269256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557269251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1566946991
 GameObject:
   m_ObjectHideFlags: 0
@@ -10311,6 +11697,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1566946992}
+  - component: {fileID: 1566946996}
   - component: {fileID: 1566946995}
   - component: {fileID: 1566946994}
   - component: {fileID: 1566946993}
@@ -10411,6 +11798,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1566946991}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1566946996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566946991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1567658953
 GameObject:
   m_ObjectHideFlags: 0
@@ -10523,6 +11927,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1620177795}
+  - component: {fileID: 1620177799}
   - component: {fileID: 1620177798}
   - component: {fileID: 1620177797}
   - component: {fileID: 1620177796}
@@ -10623,6 +12028,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1620177794}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1620177799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1620177794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1622652183
 GameObject:
   m_ObjectHideFlags: 0
@@ -10673,6 +12095,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1632270232}
+  - component: {fileID: 1632270236}
   - component: {fileID: 1632270235}
   - component: {fileID: 1632270234}
   - component: {fileID: 1632270233}
@@ -10773,6 +12196,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1632270231}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1632270236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1632270231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1634386156
 GameObject:
   m_ObjectHideFlags: 0
@@ -10782,6 +12222,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1634386157}
+  - component: {fileID: 1634386161}
   - component: {fileID: 1634386160}
   - component: {fileID: 1634386159}
   - component: {fileID: 1634386158}
@@ -10882,6 +12323,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1634386156}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1634386161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1634386156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1643638700
 GameObject:
   m_ObjectHideFlags: 0
@@ -10891,6 +12349,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1643638701}
+  - component: {fileID: 1643638705}
   - component: {fileID: 1643638704}
   - component: {fileID: 1643638703}
   - component: {fileID: 1643638702}
@@ -10991,6 +12450,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1643638700}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1643638705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1643638700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1650170834
 GameObject:
   m_ObjectHideFlags: 0
@@ -11000,6 +12476,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1650170835}
+  - component: {fileID: 1650170839}
   - component: {fileID: 1650170838}
   - component: {fileID: 1650170837}
   - component: {fileID: 1650170836}
@@ -11100,6 +12577,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1650170834}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1650170839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1650170834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1669838457
 GameObject:
   m_ObjectHideFlags: 0
@@ -11109,6 +12603,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1669838458}
+  - component: {fileID: 1669838462}
   - component: {fileID: 1669838461}
   - component: {fileID: 1669838460}
   - component: {fileID: 1669838459}
@@ -11209,6 +12704,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1669838457}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1669838462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1669838457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1703702323
 GameObject:
   m_ObjectHideFlags: 0
@@ -11218,6 +12730,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1703702324}
+  - component: {fileID: 1703702328}
   - component: {fileID: 1703702327}
   - component: {fileID: 1703702326}
   - component: {fileID: 1703702325}
@@ -11318,6 +12831,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1703702323}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1703702328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703702323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1723776342
 GameObject:
   m_ObjectHideFlags: 0
@@ -11327,6 +12857,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1723776343}
+  - component: {fileID: 1723776347}
   - component: {fileID: 1723776346}
   - component: {fileID: 1723776345}
   - component: {fileID: 1723776344}
@@ -11427,6 +12958,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1723776342}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1723776347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1723776342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1727301733
 GameObject:
   m_ObjectHideFlags: 0
@@ -11436,6 +12984,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1727301734}
+  - component: {fileID: 1727301738}
   - component: {fileID: 1727301737}
   - component: {fileID: 1727301736}
   - component: {fileID: 1727301735}
@@ -11536,6 +13085,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1727301733}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1727301738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727301733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1736149348
 GameObject:
   m_ObjectHideFlags: 0
@@ -11545,6 +13111,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1736149349}
+  - component: {fileID: 1736149353}
   - component: {fileID: 1736149352}
   - component: {fileID: 1736149351}
   - component: {fileID: 1736149350}
@@ -11645,6 +13212,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1736149348}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1736149353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736149348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1751168332
 GameObject:
   m_ObjectHideFlags: 0
@@ -11685,6 +13269,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1761815861}
+  - component: {fileID: 1761815865}
   - component: {fileID: 1761815864}
   - component: {fileID: 1761815863}
   - component: {fileID: 1761815862}
@@ -11785,6 +13370,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1761815860}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1761815865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1761815860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1766819570
 GameObject:
   m_ObjectHideFlags: 0
@@ -11794,6 +13396,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1766819571}
+  - component: {fileID: 1766819575}
   - component: {fileID: 1766819574}
   - component: {fileID: 1766819573}
   - component: {fileID: 1766819572}
@@ -11894,6 +13497,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1766819570}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1766819575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766819570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1770345265
 GameObject:
   m_ObjectHideFlags: 0
@@ -11903,6 +13523,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1770345266}
+  - component: {fileID: 1770345270}
   - component: {fileID: 1770345269}
   - component: {fileID: 1770345268}
   - component: {fileID: 1770345267}
@@ -12003,6 +13624,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1770345265}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1770345270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1770345265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1774117723
 GameObject:
   m_ObjectHideFlags: 0
@@ -12012,6 +13650,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1774117724}
+  - component: {fileID: 1774117728}
   - component: {fileID: 1774117727}
   - component: {fileID: 1774117726}
   - component: {fileID: 1774117725}
@@ -12112,6 +13751,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1774117723}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1774117728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774117723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1804229070
 GameObject:
   m_ObjectHideFlags: 0
@@ -12121,6 +13777,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1804229071}
+  - component: {fileID: 1804229075}
   - component: {fileID: 1804229074}
   - component: {fileID: 1804229073}
   - component: {fileID: 1804229072}
@@ -12221,6 +13878,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1804229070}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1804229075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1804229070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1809062284
 GameObject:
   m_ObjectHideFlags: 0
@@ -12230,6 +13904,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1809062285}
+  - component: {fileID: 1809062289}
   - component: {fileID: 1809062288}
   - component: {fileID: 1809062287}
   - component: {fileID: 1809062286}
@@ -12330,6 +14005,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1809062284}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1809062289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809062284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1816830134
 GameObject:
   m_ObjectHideFlags: 0
@@ -12339,6 +14031,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1816830135}
+  - component: {fileID: 1816830139}
   - component: {fileID: 1816830138}
   - component: {fileID: 1816830137}
   - component: {fileID: 1816830136}
@@ -12439,6 +14132,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1816830134}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1816830139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1816830134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1826348956
 GameObject:
   m_ObjectHideFlags: 0
@@ -12448,6 +14158,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1826348957}
+  - component: {fileID: 1826348961}
   - component: {fileID: 1826348960}
   - component: {fileID: 1826348959}
   - component: {fileID: 1826348958}
@@ -12548,6 +14259,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1826348956}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1826348961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826348956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1862634190
 GameObject:
   m_ObjectHideFlags: 0
@@ -12557,6 +14285,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1862634191}
+  - component: {fileID: 1862634195}
   - component: {fileID: 1862634194}
   - component: {fileID: 1862634193}
   - component: {fileID: 1862634192}
@@ -12657,6 +14386,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1862634190}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1862634195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1862634190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1905888536
 GameObject:
   m_ObjectHideFlags: 0
@@ -12666,6 +14412,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1905888537}
+  - component: {fileID: 1905888541}
   - component: {fileID: 1905888540}
   - component: {fileID: 1905888539}
   - component: {fileID: 1905888538}
@@ -12766,6 +14513,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1905888536}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1905888541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1905888536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1929785501
 GameObject:
   m_ObjectHideFlags: 0
@@ -12775,6 +14539,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1929785502}
+  - component: {fileID: 1929785506}
   - component: {fileID: 1929785505}
   - component: {fileID: 1929785504}
   - component: {fileID: 1929785503}
@@ -12875,6 +14640,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1929785501}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1929785506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929785501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1930760412
 GameObject:
   m_ObjectHideFlags: 0
@@ -12884,6 +14666,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1930760413}
+  - component: {fileID: 1930760417}
   - component: {fileID: 1930760416}
   - component: {fileID: 1930760415}
   - component: {fileID: 1930760414}
@@ -12984,6 +14767,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1930760412}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1930760417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930760412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1938647915
 GameObject:
   m_ObjectHideFlags: 0
@@ -13024,6 +14824,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1939710699}
+  - component: {fileID: 1939710703}
   - component: {fileID: 1939710702}
   - component: {fileID: 1939710701}
   - component: {fileID: 1939710700}
@@ -13124,6 +14925,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1939710698}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1939710703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939710698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1955122916
 GameObject:
   m_ObjectHideFlags: 0
@@ -13133,6 +14951,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1955122917}
+  - component: {fileID: 1955122921}
   - component: {fileID: 1955122920}
   - component: {fileID: 1955122919}
   - component: {fileID: 1955122918}
@@ -13233,6 +15052,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1955122916}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1955122921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1955122916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1968361032
 GameObject:
   m_ObjectHideFlags: 0
@@ -13242,6 +15078,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1968361033}
+  - component: {fileID: 1968361037}
   - component: {fileID: 1968361036}
   - component: {fileID: 1968361035}
   - component: {fileID: 1968361034}
@@ -13342,6 +15179,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1968361032}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1968361037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968361032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &1983181232
 GameObject:
   m_ObjectHideFlags: 0
@@ -13351,6 +15205,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1983181233}
+  - component: {fileID: 1983181237}
   - component: {fileID: 1983181236}
   - component: {fileID: 1983181235}
   - component: {fileID: 1983181234}
@@ -13451,6 +15306,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1983181232}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1983181237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983181232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &2000062063
 GameObject:
   m_ObjectHideFlags: 0
@@ -13460,6 +15332,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2000062064}
+  - component: {fileID: 2000062068}
   - component: {fileID: 2000062067}
   - component: {fileID: 2000062066}
   - component: {fileID: 2000062065}
@@ -13560,6 +15433,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2000062063}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2000062068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000062063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &2022920133
 GameObject:
   m_ObjectHideFlags: 0
@@ -13569,6 +15459,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2022920134}
+  - component: {fileID: 2022920138}
   - component: {fileID: 2022920137}
   - component: {fileID: 2022920136}
   - component: {fileID: 2022920135}
@@ -13669,6 +15560,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2022920133}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2022920138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2022920133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &2028816203
 GameObject:
   m_ObjectHideFlags: 0
@@ -13678,6 +15586,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2028816204}
+  - component: {fileID: 2028816208}
   - component: {fileID: 2028816207}
   - component: {fileID: 2028816206}
   - component: {fileID: 2028816205}
@@ -13778,6 +15687,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2028816203}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2028816208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2028816203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &2070383992
 GameObject:
   m_ObjectHideFlags: 0
@@ -13787,6 +15713,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2070383993}
+  - component: {fileID: 2070383997}
   - component: {fileID: 2070383996}
   - component: {fileID: 2070383995}
   - component: {fileID: 2070383994}
@@ -13887,6 +15814,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2070383992}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2070383997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2070383992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &2084099450
 GameObject:
   m_ObjectHideFlags: 0
@@ -14020,7 +15964,9 @@ MonoBehaviour:
     UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"patrolNodes":{"_value":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],"_name":"patrolNodes","_id":"dc698dd6-55c6-460c-b3d3-a623b3a6826d","$type":"NodeCanvas.Framework.Variable`1[[System.Collections.Generic.List`1[[UnityEngine.GameObject,
     UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
     mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"closestTile":{"_name":"closestTile","_id":"07ad6fe0-e9dc-4f63-9060-268026c1317b","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.GameObject,
-    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"}}}'
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"floorTiles":{"_value":[19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128],"_name":"floorTiles","_id":"51e31ef5-ad0c-4177-ad1a-96272842be89","$type":"NodeCanvas.Framework.Variable`1[[System.Collections.Generic.List`1[[UnityEngine.GameObject,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}}}'
   _objectReferences:
   - {fileID: 0}
   - {fileID: 1608442203}
@@ -14041,6 +15987,116 @@ MonoBehaviour:
   - {fileID: 36864104}
   - {fileID: 890670187}
   - {fileID: 480704837}
+  - {fileID: 1063019822}
+  - {fileID: 571130906}
+  - {fileID: 479745772}
+  - {fileID: 1557269251}
+  - {fileID: 512901780}
+  - {fileID: 692252104}
+  - {fileID: 1009751209}
+  - {fileID: 1929785501}
+  - {fileID: 1196299561}
+  - {fileID: 1766819570}
+  - {fileID: 829469068}
+  - {fileID: 56994115}
+  - {fileID: 1955122916}
+  - {fileID: 1229224857}
+  - {fileID: 1826348956}
+  - {fileID: 1363467205}
+  - {fileID: 1905888536}
+  - {fileID: 912419613}
+  - {fileID: 989906013}
+  - {fileID: 1058270683}
+  - {fileID: 235958263}
+  - {fileID: 1310282205}
+  - {fileID: 1736149348}
+  - {fileID: 339990568}
+  - {fileID: 184108567}
+  - {fileID: 133552073}
+  - {fileID: 479066332}
+  - {fileID: 1774117723}
+  - {fileID: 226492448}
+  - {fileID: 1465489227}
+  - {fileID: 702132323}
+  - {fileID: 1098083870}
+  - {fileID: 672399387}
+  - {fileID: 1272428455}
+  - {fileID: 1294249159}
+  - {fileID: 1118139746}
+  - {fileID: 1968361032}
+  - {fileID: 1703702323}
+  - {fileID: 846704430}
+  - {fileID: 1227873781}
+  - {fileID: 985506361}
+  - {fileID: 1214671014}
+  - {fileID: 1508062197}
+  - {fileID: 235381572}
+  - {fileID: 591012473}
+  - {fileID: 1031113787}
+  - {fileID: 2128952019}
+  - {fileID: 1518267855}
+  - {fileID: 345069588}
+  - {fileID: 1862634190}
+  - {fileID: 1431535183}
+  - {fileID: 74444826}
+  - {fileID: 727347242}
+  - {fileID: 1727301733}
+  - {fileID: 1412479931}
+  - {fileID: 182763460}
+  - {fileID: 887039878}
+  - {fileID: 1632270231}
+  - {fileID: 1643638700}
+  - {fileID: 1650170834}
+  - {fileID: 49306044}
+  - {fileID: 554977122}
+  - {fileID: 1056975002}
+  - {fileID: 719227436}
+  - {fileID: 1433326881}
+  - {fileID: 1939710698}
+  - {fileID: 1248584705}
+  - {fileID: 228477498}
+  - {fileID: 246746132}
+  - {fileID: 1816830134}
+  - {fileID: 554977159}
+  - {fileID: 171774983}
+  - {fileID: 1428289021}
+  - {fileID: 168014795}
+  - {fileID: 415660167}
+  - {fileID: 1526765686}
+  - {fileID: 632248908}
+  - {fileID: 2028816203}
+  - {fileID: 2000062063}
+  - {fileID: 887707416}
+  - {fileID: 1498076121}
+  - {fileID: 1770345265}
+  - {fileID: 955096301}
+  - {fileID: 1804229070}
+  - {fileID: 1106129466}
+  - {fileID: 1983181232}
+  - {fileID: 2136316990}
+  - {fileID: 648125940}
+  - {fileID: 1634386156}
+  - {fileID: 1388018286}
+  - {fileID: 2070383992}
+  - {fileID: 70711959}
+  - {fileID: 1809062284}
+  - {fileID: 2022920133}
+  - {fileID: 1164396832}
+  - {fileID: 1620177794}
+  - {fileID: 1723776342}
+  - {fileID: 276150158}
+  - {fileID: 1270730197}
+  - {fileID: 930495480}
+  - {fileID: 1930760412}
+  - {fileID: 51373828}
+  - {fileID: 1566946991}
+  - {fileID: 739445897}
+  - {fileID: 1761815860}
+  - {fileID: 1669838457}
+  - {fileID: 1330104332}
+  - {fileID: 857659748}
+  - {fileID: 860305700}
+  - {fileID: 162835206}
   _serializedVariables:
   - _json: '{"_propertyPath":"UnityEngine.Transform.gameObject","_name":"Roomba","_id":"a676d9a5-b7f4-4062-989c-e1bec34e035d","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"}'
@@ -14080,6 +16136,121 @@ MonoBehaviour:
   - _json: '{"_name":"closestTile","_id":"07ad6fe0-e9dc-4f63-9060-268026c1317b","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"}'
     _references: []
+  - _json: '{"_value":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110],"_name":"floorTiles","_id":"51e31ef5-ad0c-4177-ad1a-96272842be89","$type":"NodeCanvas.Framework.Variable`1[[System.Collections.Generic.List`1[[UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references:
+    - {fileID: 0}
+    - {fileID: 1063019822}
+    - {fileID: 571130906}
+    - {fileID: 479745772}
+    - {fileID: 1557269251}
+    - {fileID: 512901780}
+    - {fileID: 692252104}
+    - {fileID: 1009751209}
+    - {fileID: 1929785501}
+    - {fileID: 1196299561}
+    - {fileID: 1766819570}
+    - {fileID: 829469068}
+    - {fileID: 56994115}
+    - {fileID: 1955122916}
+    - {fileID: 1229224857}
+    - {fileID: 1826348956}
+    - {fileID: 1363467205}
+    - {fileID: 1905888536}
+    - {fileID: 912419613}
+    - {fileID: 989906013}
+    - {fileID: 1058270683}
+    - {fileID: 235958263}
+    - {fileID: 1310282205}
+    - {fileID: 1736149348}
+    - {fileID: 339990568}
+    - {fileID: 184108567}
+    - {fileID: 133552073}
+    - {fileID: 479066332}
+    - {fileID: 1774117723}
+    - {fileID: 226492448}
+    - {fileID: 1465489227}
+    - {fileID: 702132323}
+    - {fileID: 1098083870}
+    - {fileID: 672399387}
+    - {fileID: 1272428455}
+    - {fileID: 1294249159}
+    - {fileID: 1118139746}
+    - {fileID: 1968361032}
+    - {fileID: 1703702323}
+    - {fileID: 846704430}
+    - {fileID: 1227873781}
+    - {fileID: 985506361}
+    - {fileID: 1214671014}
+    - {fileID: 1508062197}
+    - {fileID: 235381572}
+    - {fileID: 591012473}
+    - {fileID: 1031113787}
+    - {fileID: 2128952019}
+    - {fileID: 1518267855}
+    - {fileID: 345069588}
+    - {fileID: 1862634190}
+    - {fileID: 1431535183}
+    - {fileID: 74444826}
+    - {fileID: 727347242}
+    - {fileID: 1727301733}
+    - {fileID: 1412479931}
+    - {fileID: 182763460}
+    - {fileID: 887039878}
+    - {fileID: 1632270231}
+    - {fileID: 1643638700}
+    - {fileID: 1650170834}
+    - {fileID: 49306044}
+    - {fileID: 554977122}
+    - {fileID: 1056975002}
+    - {fileID: 719227436}
+    - {fileID: 1433326881}
+    - {fileID: 1939710698}
+    - {fileID: 1248584705}
+    - {fileID: 228477498}
+    - {fileID: 246746132}
+    - {fileID: 1816830134}
+    - {fileID: 554977159}
+    - {fileID: 171774983}
+    - {fileID: 1428289021}
+    - {fileID: 168014795}
+    - {fileID: 415660167}
+    - {fileID: 1526765686}
+    - {fileID: 632248908}
+    - {fileID: 2028816203}
+    - {fileID: 2000062063}
+    - {fileID: 887707416}
+    - {fileID: 1498076121}
+    - {fileID: 1770345265}
+    - {fileID: 955096301}
+    - {fileID: 1804229070}
+    - {fileID: 1106129466}
+    - {fileID: 1983181232}
+    - {fileID: 2136316990}
+    - {fileID: 648125940}
+    - {fileID: 1634386156}
+    - {fileID: 1388018286}
+    - {fileID: 2070383992}
+    - {fileID: 70711959}
+    - {fileID: 1809062284}
+    - {fileID: 2022920133}
+    - {fileID: 1164396832}
+    - {fileID: 1620177794}
+    - {fileID: 1723776342}
+    - {fileID: 276150158}
+    - {fileID: 1270730197}
+    - {fileID: 930495480}
+    - {fileID: 1930760412}
+    - {fileID: 51373828}
+    - {fileID: 1566946991}
+    - {fileID: 739445897}
+    - {fileID: 1761815860}
+    - {fileID: 1669838457}
+    - {fileID: 1330104332}
+    - {fileID: 857659748}
+    - {fileID: 860305700}
+    - {fileID: 162835206}
 --- !u!114 &2084099456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14093,14 +16264,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _serializedExposedParameters: []
-  _boundGraphSerialization: '{"type":"NodeCanvas.BehaviourTrees.BehaviourTree","nodes":[{"dynamic":true,"_position":{"x":332.3128,"y":187.0572},"$type":"NodeCanvas.BehaviourTrees.Selector","$id":"0"},{"_tag":"Cleaning","_position":{"x":127.9789,"y":296.0744},"$type":"NodeCanvas.BehaviourTrees.Sequencer","$id":"1"},{"_condition":{"conditions":[{"currentValue":{"_name":"Charge","_targetVariableID":"66f752d2-cab1-4fe0-9065-6359475811f4"},"$type":"NodeCanvas.Tasks.Conditions.OverValueCT"},{"currentValue":{"_name":"Storage","_targetVariableID":"1476058f-f523-4e93-8797-de7fb1d6d2d7"},"threshold":100.0,"$type":"NodeCanvas.Tasks.Conditions.UnderValueCT"},{"detectionRadius":{"_value":5.0},"targetTag":{},"nearestTarget":{},"$type":"NodeCanvas.Tasks.Conditions.IsCloseCT"}],"$type":"NodeCanvas.Framework.ConditionList"},"_position":{"x":-16.853,"y":420.0916},"$type":"NodeCanvas.BehaviourTrees.ConditionNode","$id":"2"},{"targetList":{"_name":"patrolNodes","_targetVariableID":"dc698dd6-55c6-460c-b3d3-a623b3a6826d"},"current":{"_type":"UnityEngine.GameObject","_name":"targetNode","_targetVariableID":"061ae2ca-5df4-4726-a38d-0d09f8010c83"},"storeIndex":{"_name":""},"maxIteration":{"_value":-1},"_position":{"x":126.6793,"y":421.1724},"$type":"NodeCanvas.BehaviourTrees.Iterator","$id":"3"},{"_position":{"x":175.3009,"y":529.4286},"$type":"NodeCanvas.BehaviourTrees.Parallel","$id":"4"},{"_action":{"executionMode":1,"actions":[{"speed":{"_value":3.0},"targetTransform":{"_name":"targetNode","_targetVariableID":"061ae2ca-5df4-4726-a38d-0d09f8010c83"},"$type":"NodeCanvas.Tasks.Actions.ApproachAT"},{"otherObject":{"_name":"closestTile","_targetVariableID":"07ad6fe0-e9dc-4f63-9060-268026c1317b"},"rateOfChange":6.0,"variable":{"_value":"dirtiness"},"$type":"NodeCanvas.Tasks.Actions.DecreaseValueAT"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":81.39648,"y":634.5983},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"5"},{"_action":{"otherObject":{"_name":"Roomba","_targetVariableID":"a676d9a5-b7f4-4062-989c-e1bec34e035d"},"rateOfChange":5.0,"variable":{"_name":"Charge","_targetVariableID":"66f752d2-cab1-4fe0-9065-6359475811f4"},"$type":"NodeCanvas.Tasks.Actions.DecreaseValueAT"},"_position":{"x":240.5399,"y":634.1717},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"6"},{"_tag":"Station","_position":{"x":332.3128,"y":298.9937},"$type":"NodeCanvas.BehaviourTrees.Sequencer","$id":"7"},{"_position":{"x":285.0735,"y":412.9839},"$type":"NodeCanvas.BehaviourTrees.ConditionNode","$id":"8"},{"_position":{"x":390.3916,"y":415.9779},"$type":"NodeCanvas.BehaviourTrees.Parallel","$id":"9"},{"_position":{"x":347.0465,"y":532.6761},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"10"},{"_position":{"x":455.9648,"y":532.6761},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"11"},{"_tag":"Roam","_position":{"x":574.6705,"y":297.9667},"$type":"NodeCanvas.BehaviourTrees.Sequencer","$id":"12"},{"_position":{"x":530.512,"y":417.0916},"$type":"NodeCanvas.BehaviourTrees.ConditionNode","$id":"13"},{"_position":{"x":643.4754,"y":417.0917},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"14"}],"connections":[{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"7"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"12"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"2"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"3"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"3"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"5"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"6"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"7"},"_targetNode":{"$ref":"8"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"7"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"10"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"11"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"12"},"_targetNode":{"$ref":"13"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"12"},"_targetNode":{"$ref":"14"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{}},"derivedData":{"repeat":true,"$type":"NodeCanvas.BehaviourTrees.BehaviourTree+DerivedSerializationData"}}'
-  _boundGraphObjectReferences: []
+  _boundGraphSerialization: '{"type":"NodeCanvas.BehaviourTrees.BehaviourTree","nodes":[{"dynamic":true,"_position":{"x":332.3128,"y":187.0572},"$type":"NodeCanvas.BehaviourTrees.Selector","$id":"0"},{"_tag":"Cleaning","_position":{"x":127.9789,"y":296.0744},"$type":"NodeCanvas.BehaviourTrees.Sequencer","$id":"1"},{"_condition":{"conditions":[{"currentValue":{"_name":"Charge","_targetVariableID":"66f752d2-cab1-4fe0-9065-6359475811f4"},"$type":"NodeCanvas.Tasks.Conditions.OverValueCT"},{"currentValue":{"_name":"Storage","_targetVariableID":"1476058f-f523-4e93-8797-de7fb1d6d2d7"},"threshold":100.0,"$type":"NodeCanvas.Tasks.Conditions.UnderValueCT"}],"$type":"NodeCanvas.Framework.ConditionList"},"_position":{"x":-21.853,"y":414.0916},"$type":"NodeCanvas.BehaviourTrees.ConditionNode","$id":"2"},{"targetList":{"_name":"patrolNodes","_targetVariableID":"dc698dd6-55c6-460c-b3d3-a623b3a6826d"},"current":{"_type":"UnityEngine.GameObject","_name":"targetNode","_targetVariableID":"061ae2ca-5df4-4726-a38d-0d09f8010c83"},"storeIndex":{"_name":""},"maxIteration":{"_value":-1},"_position":{"x":125.6793,"y":413.1724},"$type":"NodeCanvas.BehaviourTrees.Iterator","$id":"3"},{"_position":{"x":100.3009,"y":533.4286},"$type":"NodeCanvas.BehaviourTrees.Parallel","$id":"4"},{"repeaterMode":1,"repeatTimes":{"_value":1},"_position":{"x":21.53461,"y":642.0533},"$type":"NodeCanvas.BehaviourTrees.Repeater","$id":"5"},{"_action":{"otherObject":{"_name":"Roomba","_targetVariableID":"a676d9a5-b7f4-4062-989c-e1bec34e035d"},"rateOfChange":5.0,"variable":{"_name":"Charge","_targetVariableID":"66f752d2-cab1-4fe0-9065-6359475811f4"},"$type":"NodeCanvas.Tasks.Actions.DecreaseValueAT"},"_position":{"x":1.482844,"y":746.846},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"6"},{"_action":{"speed":{"_value":3.0},"targetTransform":{"_name":"targetNode","_targetVariableID":"061ae2ca-5df4-4726-a38d-0d09f8010c83"},"$type":"NodeCanvas.Tasks.Actions.ApproachAT"},"_position":{"x":138.2882,"y":643.5718},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"7"},{"_tag":"Station","_position":{"x":332.3128,"y":298.9937},"$type":"NodeCanvas.BehaviourTrees.Sequencer","$id":"8"},{"_condition":{"conditions":[{"currentValue":{"_name":"Storage","_targetVariableID":"1476058f-f523-4e93-8797-de7fb1d6d2d7"},"threshold":99.0,"$type":"NodeCanvas.Tasks.Conditions.OverValueCT"},{"currentValue":{"_name":"Charge","_targetVariableID":"66f752d2-cab1-4fe0-9065-6359475811f4"},"threshold":15.0,"$type":"NodeCanvas.Tasks.Conditions.UnderValueCT"}],"$type":"NodeCanvas.Framework.ConditionList"},"_position":{"x":285.0735,"y":412.9839},"$type":"NodeCanvas.BehaviourTrees.ConditionNode","$id":"9"},{"_action":{"actions":[{"speed":{"_value":3.0},"targetTransform":{"_value":1},"$type":"NodeCanvas.Tasks.Actions.ApproachAT"},{"otherObject":{"_name":"Roomba","_targetVariableID":"a676d9a5-b7f4-4062-989c-e1bec34e035d"},"rateOfChange":3.0,"variable":{"_name":"Charge","_targetVariableID":"66f752d2-cab1-4fe0-9065-6359475811f4"},"$type":"NodeCanvas.Tasks.Actions.IncreaseValueAT"},{"otherObject":{"_name":"Roomba","_targetVariableID":"a676d9a5-b7f4-4062-989c-e1bec34e035d"},"rateOfChange":3.0,"variable":{"_name":"Storage","_targetVariableID":"1476058f-f523-4e93-8797-de7fb1d6d2d7"},"$type":"NodeCanvas.Tasks.Actions.DecreaseValueAT"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":432.0465,"y":412.6761},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"10"},{"_tag":"Roam","_position":{"x":651.6705,"y":293.9667},"$type":"NodeCanvas.BehaviourTrees.Sequencer","$id":"11"},{"_position":{"x":615.512,"y":404.0916},"$type":"NodeCanvas.BehaviourTrees.ConditionNode","$id":"12"},{"_position":{"x":714.4754,"y":406.0917},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"13"},{"_position":{"x":255.1136,"y":644.969},"$type":"NodeCanvas.BehaviourTrees.ConditionNode"},{"_action":{"actions":[{"allTiles":{"_name":"floorTiles","_targetVariableID":"51e31ef5-ad0c-4177-ad1a-96272842be89"},"closestTile":{"_name":"closestTile","_targetVariableID":"07ad6fe0-e9dc-4f63-9060-268026c1317b"},"$type":"NodeCanvas.Tasks.Actions.FindClosestTileAT"},{"otherObject":{"_name":"closestTile","_targetVariableID":"07ad6fe0-e9dc-4f63-9060-268026c1317b"},"rateOfChange":6.0,"variable":{"_value":"dirtiness"},"$type":"NodeCanvas.Tasks.Actions.DecreaseValueAT"}],"$type":"NodeCanvas.Framework.ActionList"},"_position":{"x":357.1136,"y":643.969},"$type":"NodeCanvas.BehaviourTrees.ActionNode"}],"connections":[{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"8"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"11"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"2"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"3"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"3"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"5"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"7"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"5"},"_targetNode":{"$ref":"6"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"8"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"8"},"_targetNode":{"$ref":"10"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"11"},"_targetNode":{"$ref":"12"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"11"},"_targetNode":{"$ref":"13"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{}},"derivedData":{"repeat":true,"$type":"NodeCanvas.BehaviourTrees.BehaviourTree+DerivedSerializationData"}}'
+  _boundGraphObjectReferences:
+  - {fileID: 0}
+  - {fileID: 401958972}
   _boundGraphSource:
     _version: 3.41
     _category: 
     _comments: 
-    _translation: {x: 234.88641, y: -267.96896}
-    _zoomFactor: 1
+    _translation: {x: 292.7453, y: -348.23853}
+    _zoomFactor: 0.9868533
   _firstActivation: 0
   _enableAction: 0
   _disableAction: 0
@@ -14140,6 +16313,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2128952020}
+  - component: {fileID: 2128952024}
   - component: {fileID: 2128952023}
   - component: {fileID: 2128952022}
   - component: {fileID: 2128952021}
@@ -14240,6 +16414,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2128952019}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2128952024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128952019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1 &2136316990
 GameObject:
   m_ObjectHideFlags: 0
@@ -14249,6 +16440,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2136316991}
+  - component: {fileID: 2136316995}
   - component: {fileID: 2136316994}
   - component: {fileID: 2136316993}
   - component: {fileID: 2136316992}
@@ -14349,6 +16541,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2136316990}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2136316995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136316990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0fb31f3eee8ebe4a9ea61bd8b3939f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dirtiness: 100
+  maxdirtiness: 100
+  tileRenderer: {fileID: 0}
+  cleanColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtyColor: {r: 0.45, g: 0.25, b: 0.1, a: 1}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
