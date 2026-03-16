@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f945e777233a59f4aba40aeca29093a6, type: 3}
+  m_Name: OperateFSM
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"type":"NodeCanvas.StateMachines.FSM","nodes":[{"_actionList":{"executionMode":1,"actions":[]},"_color":{"r":1.0,"g":0.42,"b":0.32,"a":1.0},"_position":{"x":516.0,"y":239.0},"$type":"NodeCanvas.StateMachines.ActionState"},{"_conditionList":{"conditions":[{"currentValue":{"_name":"Charge","_targetVariableID":"66f752d2-cab1-4fe0-9065-6359475811f4"},"threshold":0.01,"$type":"NodeCanvas.Tasks.Conditions.OverValueCT"}]},"_actionList":{"executionMode":1,"actions":[{"otherObject":{"_name":"Roomba","_targetVariableID":"a676d9a5-b7f4-4062-989c-e1bec34e035d"},"rateOfChange":2.0,"variable":{"_name":"Charge","_targetVariableID":"66f752d2-cab1-4fe0-9065-6359475811f4"},"$type":"NodeCanvas.Tasks.Actions.DecreaseValueAT"}]},"_position":{"x":618.0,"y":94.0},"$type":"NodeCanvas.StateMachines.OnFSMUpdate"},{"_conditionList":{"conditions":[{"currentValue":{"_name":"Storage","_targetVariableID":"1476058f-f523-4e93-8797-de7fb1d6d2d7"},"threshold":99.9,"$type":"NodeCanvas.Tasks.Conditions.UnderValueCT"}]},"_actionList":{"actions":[{"allTiles":{"_name":"floorTiles","_targetVariableID":"51e31ef5-ad0c-4177-ad1a-96272842be89"},"closestTile":{"_name":"closestTile","_targetVariableID":"07ad6fe0-e9dc-4f63-9060-268026c1317b"},"$type":"NodeCanvas.Tasks.Actions.FindClosestTileAT"},{"otherObject":{"_name":"Roomba","_targetVariableID":"a676d9a5-b7f4-4062-989c-e1bec34e035d"},"rateOfChange":5.0,"variable":{"_name":"Storage","_targetVariableID":"1476058f-f523-4e93-8797-de7fb1d6d2d7"},"$type":"NodeCanvas.Tasks.Actions.IncreaseValueAT"}]},"_position":{"x":780.0,"y":93.0},"$type":"NodeCanvas.StateMachines.OnFSMUpdate"}],"connections":[],"canvasGroups":[],"localBlackboard":{"_variables":{}}}'
+  _objectReferences: []
+  _graphSource:
+    _version: 3.41
+    _category: 
+    _comments: 
+    _translation: {x: -307, y: 13}
+    _zoomFactor: 1
+  _haltSerialization: 0
+  _externalSerializationFile: {fileID: 0}
