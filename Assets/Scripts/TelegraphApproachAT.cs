@@ -38,7 +38,7 @@ namespace NodeCanvas.Tasks.Actions {
 
             Vector3 directionToMove = targetTransform.value.position - agent.transform.position;
 
-            if (directionToMove.sqrMagnitude < 0.0001f)
+            if (directionToMove.sqrMagnitude < 0.0001f) //stop if close to target
             {
                 EndAction(true);
                 return;
@@ -46,11 +46,12 @@ namespace NodeCanvas.Tasks.Actions {
 
             directionToMove.y = 0f;
 
+            //rotate
             Quaternion targetRotation = Quaternion.LookRotation(directionToMove);
             agent.transform.rotation = Quaternion.RotateTowards(agent.transform.rotation, targetRotation, rotationSpeed.value * Time.deltaTime);
 
+            //only move if facing the target
             float angle = Vector3.Angle(agent.transform.forward, directionToMove);
-
             if (angle < moveAngle)
             {
                 agent.transform.position += directionToMove.normalized * speed.value * Time.deltaTime;
