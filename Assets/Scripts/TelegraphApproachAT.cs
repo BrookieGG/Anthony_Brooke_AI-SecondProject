@@ -1,14 +1,16 @@
 using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
+using UnityEngine.AI;
 
 
 namespace NodeCanvas.Tasks.Actions {
 
 	public class TelegraphApproachAT : ActionTask {
 
-        public BBParameter<float> speed;
+        //public BBParameter<float> speed;
         public BBParameter<Transform> targetTransform;
+        private NavMeshAgent navAgent; 
 
         public BBParameter<float> rotationSpeed;
         public float moveAngle = 20f;
@@ -16,7 +18,8 @@ namespace NodeCanvas.Tasks.Actions {
         //Use for initialization. This is called only once in the lifetime of the task.
         //Return null if init was successfull. Return an error string otherwise
         protected override string OnInit() {
-			return null;
+            navAgent = agent.GetComponent<NavMeshAgent>();
+            return null;
 		}
 
 		//This is called once each time the task is enabled.
@@ -54,7 +57,7 @@ namespace NodeCanvas.Tasks.Actions {
             float angle = Vector3.Angle(agent.transform.forward, directionToMove);
             if (angle < moveAngle)
             {
-                agent.transform.position += directionToMove.normalized * speed.value * Time.deltaTime;
+                navAgent.SetDestination(targetTransform.value.position);
             }
 
             float distanceToTarget = directionToMove.magnitude;
