@@ -8,17 +8,19 @@ namespace NodeCanvas.Tasks.Conditions {
 
 	public class IfValueCT : ConditionTask {
 
-        public BBParameter<float> currentValue;
+        public string variableName;
 		public BBParameter<GameObject> otherobject;
         public float threshold;
 		public enum Mode { GreaterThan, GreaterThanOrEqual, LessThan, LessThanOrEqual, Equal }
 		public Mode mode;
 
+		private Blackboard otherBlackboard;
+
         //Use for initialization. This is called only once in the lifetime of the task.
         //Return null if init was successfull. Return an error string otherwise
         protected override string OnInit(){
-            Blackboard otherBlackboard = otherobject.value.GetComponent<Blackboard>(); //gets blackboard
-			currentValue = otherBlackboard.GetVariableValue(varName, newValue); //sets the variable in the blackboard to the new value
+            otherBlackboard = otherobject.value.GetComponent<Blackboard>(); //gets blackboard
+			
             return null;
 		}
 
@@ -36,25 +38,26 @@ namespace NodeCanvas.Tasks.Conditions {
 		//Return whether the condition is success or failure.
 		protected override bool OnCheck() {
             bool result = false;
+			float currentValue = otherBlackboard.GetVariable<float>(variableName).value;
 			if (mode == Mode.Equal)
 			{
-				result = currentValue.value == threshold;
+				result = currentValue == threshold;
 			}
 			else if (mode == Mode.GreaterThan)
 			{
-				result = currentValue.value > threshold;
+				result = currentValue > threshold;
 			}
 			else if (mode == Mode.LessThan)
 			{
-				result = currentValue.value < threshold;
+				result = currentValue < threshold;
 			}
 			else if (mode == Mode.GreaterThanOrEqual)
 			{
-				result = currentValue.value >= threshold;
+				result = currentValue >= threshold;
 			}
 			else
 			{
-				result = currentValue.value <= threshold;
+				result = currentValue <= threshold;
 			}
 
 			return result;
