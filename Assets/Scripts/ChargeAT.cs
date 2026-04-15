@@ -1,72 +1,147 @@
 using NodeCanvas.Framework;
 using ParadoxNotion.Design;
 using UnityEngine;
+using UnityEngine.AI;
 
-
-namespace NodeCanvas.Tasks.Actions {
-
-	public class ChargeAT : ActionTask {
-
-        public BBParameter<float> currentSpeed;
-        public float chargeMultiplier;
+namespace NodeCanvas.Tasks.Actions
+{
+    [Category("Custom")]
+    public class ChargeAT : ActionTask
+    {
         public BBParameter<Transform> targetTransform;
 
-        //Use for initialization. This is called only once in the lifetime of the task.
-        //Return null if init was successfull. Return an error string otherwise
+        public float rotationSpeed = 720f;
+        public float windupDuration = 0.75f;
+
+        public float speedMultiplier = 3f;
+        public float chargeDuration = 0.75f;
+
+        private NavMeshAgent navAgent;
+
+        private float originalSpeed;
+        private float windupTimer;
+        private float chargeTimer;
+
+        private enum State
+        {
+            Telegraph,
+            Charge
+        }
+
+        private State currentState;
+
         protected override string OnInit()
         {
-            //Blackboard agentBlackboard = agent.GetComponent<Blackboard>();
-            //speed = agentBlackboard.GetVariableValue<float>("speed");
+            navAgent = agent.GetComponent<NavMeshAgent>();
 
-            //agentBlackboard.SetVariableValue("speed", 0f);
+            if (navAgent == null)
+                return "ChargeAT requires a NavMeshAgent.";
 
             return null;
         }
 
-        //This is called once each time the task is enabled.
-        //Call EndAction() to mark the action as finished, either in success or failure.
-        //EndAction can be called from anywhere.
         protected override void OnExecute()
         {
-
-        }
-
-        //Called once per frame while the action is active.
-        protected override void OnUpdate()
-        {
-            //Move the object towards the target Transform
-
-            Vector3 directionToMove = targetTransform.value.position - agent.transform.position;
-
-            if (directionToMove.sqrMagnitude < 0.0001f)
+            if (targetTransform.value == null)
             {
-                EndAction(true);
+                EndAction(false);
                 return;
             }
 
-            agent.transform.position += directionToMove.normalized * (currentSpeed.value * chargeMultiplier) * Time.deltaTime;
+            // HARD STOP immediately (this fixes your "finishes patrol first" issue)
+            navAgent.isStopped = true;
+            navAgent.ResetPath();
 
-            Quaternion targetRotation = Quaternion.LookRotation(directionToMove);
-            agent.transform.rotation = Quaternion.RotateTowards(agent.transform.rotation, targetRotation, 720f * Time.deltaTime);
+            originalSpeed = navAgent.speed;
 
-            float distanceToTarget = directionToMove.magnitude;
+            windupTimer = windupDuration;
+            chargeTimer = chargeDuration;
 
-            if (distanceToTarget < 0.1)
+            currentState = State.Telegraph;
+        }
+
+        protected override void OnUpdate()
+        {
+            if (targetTransform.value == null)
             {
+                StopCharge();
+                EndAction(false);
+                return;
+            }
+
+            switch (currentState)
+            {
+                case State.Telegraph:
+                    UpdateTelegraph();
+                    break;
+
+                case State.Charge:
+                    UpdateCharge();
+                    break;
+            }
+        }
+
+        private void UpdateTelegraph()
+        {
+            Vector3 targetPos = targetTransform.value.position;
+            targetPos.y = agent.transform.position.y;
+
+            Vector3 toTarget = targetPos - agent.transform.position;
+
+            if (toTarget.sqrMagnitude > 0.001f)
+            {
+                Quaternion targetRotation = Quaternion.LookRotation(toTarget.normalized);
+                agent.transform.rotation = Quaternion.RotateTowards(
+                    agent.transform.rotation,
+                    targetRotation,
+                    rotationSpeed * Time.deltaTime
+                );
+            }
+
+            windupTimer -= Time.deltaTime;
+
+            if (windupTimer <= 0f)
+            {
+                StartCharge();
+            }
+        }
+
+        private void StartCharge()
+        {
+            navAgent.speed = originalSpeed * speedMultiplier;
+            navAgent.isStopped = false;
+
+            currentState = State.Charge;
+        }
+
+        private void UpdateCharge()
+        {
+            // IMPORTANT: constantly update destination to simulate aggressive chase
+            navAgent.SetDestination(targetTransform.value.position);
+
+            chargeTimer -= Time.deltaTime;
+
+            if (chargeTimer <= 0f)
+            {
+                StopCharge();
                 EndAction(true);
             }
         }
 
-        //Called when the task is disabled.
-        protected override void OnStop()
+        private void StopCharge()
         {
-
+            navAgent.speed = originalSpeed;
+            navAgent.isStopped = false;
         }
 
-        //Called when the task is paused.
+        protected override void OnStop()
+        {
+            StopCharge();
+        }
+
         protected override void OnPause()
         {
-
+            StopCharge();
         }
     }
 }

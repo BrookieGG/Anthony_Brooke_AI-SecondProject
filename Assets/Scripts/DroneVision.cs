@@ -14,10 +14,13 @@ public class DroneVision : MonoBehaviour
 
     private Color currentColor;
     private Mesh visionConeMesh;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         currentColor = patrol;
+
+
     }
 
     private void OnDrawGizmos()
@@ -86,7 +89,7 @@ public class DroneVision : MonoBehaviour
         Vector3[] verts = new Vector3[vertCount];
         int[] tris = new int[visionSegments * 3];
 
-        // Vertex 0 = vision tip (local origin)
+        //Vertex 0 = vision tip (local origin)
         verts[0] = Vector3.zero;
 
         float halfAngle = visionAngle * 0.5f;
