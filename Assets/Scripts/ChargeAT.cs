@@ -35,29 +35,29 @@ namespace NodeCanvas.Tasks.Actions
             navAgent = agent.GetComponent<NavMeshAgent>();
 
             if (navAgent == null)
-                return "ChargeAT requires a NavMeshAgent.";
+                return "ChargeAT requires a NavMeshAgent."; //missing navmesh
 
             return null;
         }
 
         protected override void OnExecute()
         {
-            if (targetTransform.value == null)
+            if (targetTransform.value == null) //fail if no target
             {
                 EndAction(false);
                 return;
             }
 
-            // HARD STOP immediately (this fixes your "finishes patrol first" issue)
+            // HARD STOP immediately
             navAgent.isStopped = true;
             navAgent.ResetPath();
 
-            originalSpeed = navAgent.speed;
+            originalSpeed = navAgent.speed; //store original speed
 
-            windupTimer = windupDuration;
+            windupTimer = windupDuration; //timers
             chargeTimer = chargeDuration;
 
-            currentState = State.Telegraph;
+            currentState = State.Telegraph; //start in telegraph
         }
 
         protected override void OnUpdate()
@@ -69,7 +69,7 @@ namespace NodeCanvas.Tasks.Actions
                 return;
             }
 
-            switch (currentState)
+            switch (currentState) //switch between the two states/enums
             {
                 case State.Telegraph:
                     UpdateTelegraph();
@@ -88,7 +88,7 @@ namespace NodeCanvas.Tasks.Actions
 
             Vector3 toTarget = targetPos - agent.transform.position;
 
-            if (toTarget.sqrMagnitude > 0.001f)
+            if (toTarget.sqrMagnitude > 0.001f) //rotate toward player/target
             {
                 Quaternion targetRotation = Quaternion.LookRotation(toTarget.normalized);
                 agent.transform.rotation = Quaternion.RotateTowards(
@@ -98,9 +98,9 @@ namespace NodeCanvas.Tasks.Actions
                 );
             }
 
-            windupTimer -= Time.deltaTime;
+            windupTimer -= Time.deltaTime; //countdown timer
 
-            if (windupTimer <= 0f)
+            if (windupTimer <= 0f) //once timer done start charging
             {
                 StartCharge();
             }
@@ -108,7 +108,7 @@ namespace NodeCanvas.Tasks.Actions
 
         private void StartCharge()
         {
-            navAgent.speed = originalSpeed * speedMultiplier;
+            navAgent.speed = originalSpeed * speedMultiplier; //increase speed
             navAgent.isStopped = false;
 
             currentState = State.Charge;
@@ -116,19 +116,19 @@ namespace NodeCanvas.Tasks.Actions
 
         private void UpdateCharge()
         {
-            // IMPORTANT: constantly update destination to simulate aggressive chase
+            //constantly update destination to simulate aggressive chase
             navAgent.SetDestination(targetTransform.value.position);
 
-            chargeTimer -= Time.deltaTime;
+            chargeTimer -= Time.deltaTime; //countdown charge
 
-            if (chargeTimer <= 0f)
+            if (chargeTimer <= 0f) //stop charging when timer done
             {
                 StopCharge();
                 EndAction(true);
             }
         }
 
-        private void StopCharge()
+        private void StopCharge() //reset movement
         {
             navAgent.speed = originalSpeed;
             navAgent.isStopped = false;
